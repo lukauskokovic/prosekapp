@@ -16,5 +16,6 @@ void main(){
     }
     float prosek = ukupno/cast(float)ocene;
     writeln("Prosek: " ~ to!string(prosek));
+    writeln("Zbir ocena " ~ to!string(ukupno));
     readln();
 }
